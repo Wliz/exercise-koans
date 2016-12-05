@@ -15,6 +15,13 @@
 #
 def triangle(a, b, c)
   # WRITE THIS CODE
+  result = [a, b, c].sort
+  re = (result[0] + result[1] > result[2]) && (result[2] - result[0]) < result[1]
+  return :equilateral if [a, b, c].uniq.size == 1 && re
+  return :isosceles if [a, b, c].uniq.size == 2 && re
+  return :scalene if [a, b, c].uniq.size == 3 && re
+  
+  raise TriangleError
 end
 
 # Error class used in part 2.  No need to change this code.
