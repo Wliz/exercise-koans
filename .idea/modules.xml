@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/exercise-koans.iml" filepath="$PROJECT_DIR$/.idea/exercise-koans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../skio_sms_server/.idea/skio_sms_server.iml" filepath="$PROJECT_DIR$/../skio_sms_server/.idea/skio_sms_server.iml" />
     </modules>
   </component>
 </project>
